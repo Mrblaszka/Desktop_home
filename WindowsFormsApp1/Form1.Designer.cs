@@ -120,6 +120,7 @@
             this.tb1.Name = "tb1";
             this.tb1.Size = new System.Drawing.Size(433, 27);
             this.tb1.TabIndex = 7;
+            this.tb1.TextChanged += new System.EventHandler(this.tb1_TextChanged);
             // 
             // tb4
             // 
@@ -354,6 +355,7 @@
             this.groupBox3.Size = new System.Drawing.Size(357, 52);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // radioButton2
             // 
@@ -376,7 +378,6 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(82, 21);
             this.comboBox2.TabIndex = 8;
-            this.comboBox2.Text = "styczeń";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // label13
@@ -425,6 +426,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "po raz pierwszy";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -436,6 +438,7 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "po raz kolejny";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // checkBox1
             // 
